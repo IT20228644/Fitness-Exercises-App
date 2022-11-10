@@ -14,7 +14,9 @@ const HeroBanner = () => {
       </Typography>
 
       <Typography fontWeight={700}
-      sx={{ fontSize: { lg: '44px', xs: '40px'}}}>
+      sx={{ fontSize: { lg: '44px', xs: '40px'}
+      }} 
+      mb="0px" mt="10px">
         Sweet, Smile <br/> and Repeat 
       </Typography>
 
@@ -32,7 +34,11 @@ const HeroBanner = () => {
         Exercise
       </Typography>
 
-      <Button variant="contained" color='error' href='#exercises'>Explore Exercises</Button>
+      <Button variant="contained" color='error' href='#exercises'
+      sx={{ backgroundColor: '#FF2625', 
+      padding: '10px'}}>
+        Explore Exercises
+      </Button>
 
       <img src={HeroBannerImage} alt="banner" className='hero-banner-img' />
     </Box>
