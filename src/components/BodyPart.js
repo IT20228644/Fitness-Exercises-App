@@ -21,11 +21,11 @@ const BodyPart = ({item, setBodyPart, bodyPart}) => {
 
         <img src={Icon} alt="Dumbbell" 
         className="body-part-icon"
-        styles={{width: '40px', height: '40px'
+        style={{width: '40px', height: '40px'
         }}/>
-        {/* <Typography fontSize="24px" fontWeight="bold" color="3A1212" textTransfrom="capitalize">
+        <Typography fontSize="24px" fontWeight="bold" color="3A1212" textTransform="capitalize">
             {item}
-        </Typography> */}
+        </Typography>
     </Stack>
   )
 }
